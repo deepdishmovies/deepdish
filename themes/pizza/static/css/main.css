@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap);
+
+/* general overrides */
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+/* site styles */
+a,
+a:visited {
+  color: #a62200;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bf3b00;
+}
+
+main {
+  height: 100%;
+  padding: 20px;
+  background: url('/img/deepdish-bg-pepperoni-only.png') no-repeat top left;
+}
+
+header {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.header-image {
+  max-width: 250px;
+  max-height: 250px;
+  border: 2px solid rgba(181, 177, 167, 0.3);
+  border-radius: 4px;
+}
+
+.header-info {
+  padding: 0 20px 20px 20px;
+}
+
+.header-title {
+  margin-top: 8px;
+  color: #a62200;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 40px;
+}
+
+.nav-section {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 25px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-icon {
+  color: #a62200;
+  font-size: 25px;
+}
+
+.social-icon:hover {
+  color: #bf3b00;
+}
+
+.episodes-container {
+  max-width: 800px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.episode {
+  padding: 20px 0;
+  border-bottom: 1px dotted #a62200;
+}
+
+.episode-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.episode-title {
+  color: #a62200;
+  font-weight: bold;
+}
+
+.episode:first-of-type {
+  padding-top: 0;
+}
+
+.episode:last-of-type {
+  border: 0;
+}
+
+.footer {
+  padding: 20px;
+  color: #fff;
+  background-color: #a62200;
+  text-align: center;
+}
+
+.footer a,
+.footer a:visited {
+  color: #fff;
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .header-image {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,6 @@
+baseURL = "https://www.deepdish.show/"
+languageCode = "en-us"
+title = "Deep Dish Movie Month"
+theme = "pizza"
+[params]
+  description = "My site description"
