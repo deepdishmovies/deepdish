@@ -26,24 +26,32 @@ a:hover {
   color: #bf3b00;
 }
 
+body {
+  background: url('/img/deepdish-bg-pepperoni-only-small.png') top left;
+}
+
+.wrapper {
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+
 main {
-  height: 100%;
   padding: 20px;
-  background: url('/img/deepdish-bg-pepperoni-only.png') no-repeat top left;
 }
 
 header {
   display: flex;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
 }
 
 .header-image {
-  max-width: 250px;
-  max-height: 250px;
+  width: 250px;
+  height: 250px;
   border: 2px solid rgba(181, 177, 167, 0.3);
   border-radius: 4px;
 }
@@ -59,14 +67,9 @@ header {
   font-size: 40px;
 }
 
-.nav-section {
-  display: flex;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
-  width: 200px;
   margin: 25px 0 0 0;
   padding: 0;
   list-style-type: none;
@@ -81,12 +84,19 @@ header {
   color: #bf3b00;
 }
 
-.episodes-container {
+.content {
   max-width: 800px;
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
+}
+
+.episodes-title {
+  margin: 0 0 10px 0;
+  color: #a62200;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 30px; 
 }
 
 .episode {
@@ -113,15 +123,18 @@ header {
   border: 0;
 }
 
-.footer {
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0%;
   padding: 20px;
   color: #fff;
   background-color: #a62200;
   text-align: center;
 }
 
-.footer a,
-.footer a:visited {
+footer a,
+footer a:visited {
   color: #fff;
 }
 
@@ -130,6 +143,7 @@ header {
   header {
     display: flex;
     flex-direction: column;
+    margin: 20px;
   }
 
   .header-title {
@@ -138,8 +152,8 @@ header {
   }
 
   .header-image {
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
   }
 }
