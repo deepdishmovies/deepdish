@@ -3,22 +3,29 @@ episodes:
   - title: "#1 - Murphy May"
     date: "2020-05-01"
     slug: ce4nh-ec43bf
+    permalink: "01-murphy-may"
   - title: "#2 - Jeff GoldJune"
     date: "2020-06-01"
     slug: nbuie-ed886a
+    permalink: "jeff-goldjune"
   - title: "#3 - July Carrey"
     date: "2020-07-01"
     slug: emy9s-ed8ec2
+    permalink: "july-carrey"
   - title: "#4 - Arnold August"
     date: "2020-08-01"
     slug: 3dzb2-edf53c
+    permalink: "4-arnold-august"
   - title: "#5 - A Belated Introduction"
     date: "2020-09-30"
     slug: 75g55-edf54c
+    permalink: "5-a-belated-introduction"
   - title: "#6 - Stephen King: The King of Ghosts and Ghouls - Part 1"
     date: "2020-10-15"
     slug: 685me-ef6d8b
+    permalink: "6-stephen-king-the-king-of-ghosts-and-ghouls-part-1"
   - title: "#7 - Stephen King: The King of Ghosts and Ghouls - Part 2"
     date: "2020-10-31"
     slug: w9tid-f0efee
+    permalink: "7-stephen-king-the-king-of-ghosts-and-ghouls-part-2"
 

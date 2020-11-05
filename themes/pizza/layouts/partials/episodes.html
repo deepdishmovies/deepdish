@@ -3,10 +3,12 @@
     {{ range sort .Site.Data.episodes.episodes "date" "desc" }}
     <div class="episode">
       <div class="episode-data">
-        <h3 class="episode-title">{{ .title }}</h3>
+        <h3 class="episode-title">
+          <a href="/e/{{ .permalink }}">{{ .title }}</a>
+        </h3>
         <span class="episode-date">{{ .date }}</span>
       </div>
-      <iframe title="#1 - Murphy May" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/{{ .slug }}?from=pb6admin&download=1&version=1&auto=0&share=0&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=109" width="100%" height="122"></iframe>
+      <iframe title="{{ .title }}" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/{{ .slug }}?from=pb6admin&download=1&version=1&auto=0&share=0&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=109" width="100%" height="122"></iframe>
     </div>
     {{ end }}
 </div>
