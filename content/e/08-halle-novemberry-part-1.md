@@ -1,6 +1,6 @@
 ---
 title: "#8 - Halle NovemBerry - Part 1"
-date: 2020-11-16T20:25:21-04:00
+date: 2020-11-16T00:25:21-04:00
 draft: false
 type: page
 ---
@@ -12,6 +12,7 @@ It's NovemBerry, and it's time to give thanks for what matters most in life: the
 This episode's films: X-Men, X2, X-Men: The Last Stand, X-Men: First Class\*\*, X-Men: Days of Future Past, Race the Sun, B\*A\*P\*S, Bulworth, Frankie & Alice, Gothika, Catwoman.
 
 \* They watched eleven, but one of them didn't have Halle Berry in it.
+
 \*\* Does not feature Halle Berry. Included for X-Men continuity.
 
 Follow us on Twitter at [@deepdishmovies](https://twitter.com/deepdishmovies) and visit our site at [deepdish.show](https://www.deepdish.show)!
