@@ -5,7 +5,7 @@ draft: false
 type: page
 ---
 
-{{< episode-page permalink="13-janeuary-fonda-part-2" title="#13 - Janeuary Fonda - Part 2" date="2021-01-30" slug="pb-xqsja-f92664" >}}
+{{< episode-page permalink="13-janeuary-fonda-part-2" title="#13 - Janeuary Fonda - Part 2" date="2021-01-30" slug="xqsja-f92664" >}}
 
 You knew it was coming, and now it's here: James and Julia get to talk about Barbarella (1968) and how it's probably the best movie ever made. If you're excited to hear about pink furry spaceships and learn what a Catchman is, this is the episode for you.
 
