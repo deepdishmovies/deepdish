@@ -140,6 +140,10 @@ footer a:visited {
   color: #fff;
 }
 
+footer a:hover {
+  color: #ffcf6e;
+}
+
 /* mobile */
 @media screen and (max-width: 767px) {
   header {
